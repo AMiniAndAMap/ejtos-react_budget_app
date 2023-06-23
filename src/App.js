@@ -21,6 +21,17 @@ const App = () => {
                     <div className='col-sm'>
                         <ExpenseTotal />
                     </div>
+                    <div className='col-sm'>
+                        <div className='alert alert-secondary'>
+                        <select>
+                            <option defaultValue>Currency (£ Pound)...</option>
+                            <option value="$ Dollar" name="$ Dollar"> $ Dollar</option>
+                            <option value="£ Pound" name="£ Pound">£ Pound</option>
+                            <option value="€ Euro" name="€ Euro">€ Euro</option>
+                            <option value="₹ Ruppee" name="₹ Ruppee">₹ Ruppee</option>
+                        </select>
+                        </div>
+                    </div>
                 </div>
                 <h3 className='mt-3'>Allocation</h3>
                 <div className='row '>
